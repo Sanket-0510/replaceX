@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Logo Replacer",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],  
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png"
+    }
+  }
+}
